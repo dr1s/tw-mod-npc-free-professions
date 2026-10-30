@@ -1,7 +1,7 @@
-[worldserver]                            
+[NpcFreeProfessions]
 
 ###################################################################################################
-#  mod-npc-free-professions
+#  tw-mod-npc-free-professions
 ###################################################################################################
 
 #
@@ -16,15 +16,13 @@ NpcFreeProfessions.Enable = 1
 #
 #   NpcFreeProfessions.GivenCraftLevel
 #       Description: The skill level given for a profession
-#       Default:    450 - default
-#                   375
-#                   300
+#       Default:    300 - default (Vanilla/Tortoise maximum)
 #                   225
 #                   150
 #                    75
 #
 
-NpcFreeProfessions.GivenCraftLevel = 450
+NpcFreeProfessions.GivenCraftLevel = 300
 
 #
 #   NpcFreeProfessions.Enable.EachProfession
@@ -39,8 +37,6 @@ NpcFreeProfessions.Enable.Leatherworking = 1
 NpcFreeProfessions.Enable.Tailoring = 1
 NpcFreeProfessions.Enable.Engineering = 1
 NpcFreeProfessions.Enable.Enchanting = 1
-NpcFreeProfessions.Enable.Jewelcrafting = 1
-NpcFreeProfessions.Enable.Inscription = 1
 NpcFreeProfessions.Enable.Herbalism = 1
 NpcFreeProfessions.Enable.Skinning = 1
 NpcFreeProfessions.Enable.Mining = 1
